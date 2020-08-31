@@ -30,3 +30,13 @@ Run the Naming Server, Api Gateway, Auth Service, Currency Exchange, Currency Co
 ![](./screenshots/currency-exchange-via-api-gateway.png)
 **Run Currency Conversion Service via API Gateway using JWT token from Auth Service**
 ![](./screenshots/currency-conversion-via-api-gateway.png)
+
+**REFERENCES**
+
+- https://www.udemy.com/course/microservices-with-spring-boot-and-spring-cloud/
+- https://medium.com/omarelgabrys-blog/microservices-with-spring-boot-intro-to-microservices-part-1-c0d24cd422c3 
+- https://stackoverflow.com/questions/36359915/authorization-header-not-passed-by-zuulproxy-starting-with-brixton-rc1
+- https://medium.com/@IlyasKeser/feignclient-interceptor-for-bearer-token-oauth-f45997673a1
+- https://www.baeldung.com/spring-mvc-handlerinterceptor
+- https://spring.io/guides/topicals/spring-security-architecture/
+
