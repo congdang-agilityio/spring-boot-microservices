@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="auth-service" />
+        <module name="currency-exchange-service" />
+        <module name="currency-conversion-service" />
+        <module name="netflix-eureka-naming-server" />
+        <module name="netflix-zuul-api-gateway-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auth-service" target="11" />
+      <module name="currency-conversion-service" target="11" />
+      <module name="currency-exchange-service" target="11" />
+      <module name="limits-service" target="11" />
+      <module name="netflix-eureka-naming-server" target="11" />
+      <module name="netflix-zuul-api-gateway-server" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth-service" options="-parameters" />
+      <module name="currency-conversion-service" options="-parameters" />
+      <module name="currency-exchange-service" options="-parameters" />
+      <module name="limits-service" options="-parameters" />
+      <module name="netflix-eureka-naming-server" options="-parameters" />
+      <module name="netflix-zuul-api-gateway-server" options="-parameters" />
+    </option>
+  </component>
+</project>

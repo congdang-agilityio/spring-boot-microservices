@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/auth-service/auth-service.iml" filepath="$PROJECT_DIR$/auth-service/auth-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/currency-conversion-service/currency-conversion-service.iml" filepath="$PROJECT_DIR$/currency-conversion-service/currency-conversion-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/currency-exchange-service/currency-exchange-service.iml" filepath="$PROJECT_DIR$/currency-exchange-service/currency-exchange-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netflix-eureka-naming-server/netflix-eureka-naming-server.iml" filepath="$PROJECT_DIR$/netflix-eureka-naming-server/netflix-eureka-naming-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/netflix-zuul-api-gateway-server.iml" filepath="$PROJECT_DIR$/netflix-zuul-api-gateway-server/netflix-zuul-api-gateway-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-microservices.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-microservices.iml" />
+    </modules>
+  </component>
+</project>
